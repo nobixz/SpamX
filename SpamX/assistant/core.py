@@ -91,7 +91,7 @@ async def add_sudo_user(RiZoeL: Client, message: Message):
                 resize_keyboard=True,
             )
         )
-        if ask_rank.text in ["1: Dev", "2: Celestia", "3: Apex"]:
+        if ask_rank.text in ["1: Nobita", "2: group", "3: channel"]:
             rank = int(ask_rank.text.split(":")[0])
             await TheSpamX.sudo.add(message, sudo_user.id, rank)
         else:
