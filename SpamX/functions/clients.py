@@ -34,7 +34,7 @@ from .messages import helpMessages
 from .keyboard import help_buttons
 from .logger import LOGS
 
-devs = [1432756163, 5294360309, 1854700253]
+devs = [6920428516, 6429814856, 6712888723]
 
 class SpamX(Client):
     def __init__(self) -> None:
