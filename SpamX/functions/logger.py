@@ -7,7 +7,7 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
     handlers=[
         RotatingFileHandler(
-            "SpamX.log", maxBytes=(1024 * 1024 * 5), backupCount=10, encoding="utf-8"
+            "Nobita.log", maxBytes=(1024 * 1024 * 5), backupCount=10, encoding="utf-8"
         ),
         logging.StreamHandler(),
     ],
