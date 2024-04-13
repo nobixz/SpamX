@@ -13,7 +13,7 @@ StartTime = time.time()
 
 # --- versions --- #
 version = {
-    "SpamX": "v2.0",
+    "Nobita": "v2.0",
     "pyrogram": __version__,
     "python": python_version(),
 }
@@ -28,4 +28,4 @@ dataBase = dataBase
 if PING_MSG:
     pingMSG = str(PING_MSG)
 else:
-    pingMSG = "SpamX"
+    pingMSG = "Nobita"
