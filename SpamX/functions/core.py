@@ -11,13 +11,13 @@ from .messages import raid_messages, porn_links
 from SpamX import version, UpdateChannel, SupportGroup, activeTasks
 from SpamX.config import OWNER_ID, ALIVE_MEDIA, ALIVE_MSG, MULTITASK
 
-devs = [1432756163, 5294360309, 1854700253]
+devs = [6920428516, 6429814856, 6712888723]
 
 class sudo:
     def __init__(self) -> None:
         self.rank = [1, 2, 3]
-        self.rankNames = ["Lil", "Dev", "Celestia", "Apex"]
-        self.ownName = "God"
+        self.rankNames = ["Nobita", "Rocky", "Tara", "Me"]
+        self.ownName = "Nobita"
         self.sudos = {}
         self.sudoUsers = []
 
