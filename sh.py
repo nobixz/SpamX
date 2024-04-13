@@ -29,4 +29,4 @@ if start.lower() in ['y', 'yes']:
     setupSpamX()
 else:
   clear()
-  os.system("python3 -m SpamX")
+  os.system("python3 -m Nobita")
