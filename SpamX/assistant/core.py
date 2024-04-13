@@ -82,9 +82,9 @@ async def add_sudo_user(RiZoeL: Client, message: Message):
             reply_markup=ReplyKeyboardMarkup(
                 [
                     [
-                        KeyboardButton("1: Dev"),
-                        KeyboardButton("2: Celestia"),
-                        KeyboardButton("3: Apex"),
+                        KeyboardButton("1: Nobita"),
+                        KeyboardButton("2: group"),
+                        KeyboardButton("3: channel"),
                     ]
                 ],
                 placeholder="Please select rank",
