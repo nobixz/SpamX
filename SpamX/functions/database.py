@@ -1,5 +1,5 @@
 """
-    SpamX by RiZoeLX
+    Nobita By Tara
     Database - Used MonGo DB
 """
 import os
